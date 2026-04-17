@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🛡️ CyberGuard Malware Educational Lab
 
-# Run and deploy your AI Studio app
+<p align="center">
+  <img src="https://img.shields.io/badge/CyberSecurity-Project-blue?style=for-the-badge&logo=hackaday" />
+  <img src="https://img.shields.io/badge/Type-Malware%20Simulation-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+</p>
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/1814614d-334c-447f-bdc7-70966c1851f1
+## 🎯 Project Overview
 
-## Run Locally
+CyberGuard Malware Educational Lab is an interactive cybersecurity project designed to **simulate malware behavior and detection mechanisms** in a controlled environment.
 
-**Prerequisites:**  Node.js
+💡 This project helps users understand:
+- Malware patterns  
+- Detection techniques  
+- Prevention strategies  
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🎬 Live Simulation Preview
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGJmZ2F1d3d4c2t6d3Y5Z3F2b2R4YzB0c3M0d3RkZ2V4dWJ4ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="600"/>
