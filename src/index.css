@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom palette from Sleek Interface Theme */
+  --color-sleek-bg: #0A0B0E;
+  --color-sleek-surface: #16181D;
+  --color-sleek-border: #2D3139;
+  --color-sleek-cyan: #00F0FF;
+  --color-sleek-danger: #FF3B3B;
+  --color-sleek-warning: #FFB800;
+  --color-sleek-text-main: #E2E8F0;
+  --color-sleek-text-dim: #94A3B8;
+}
+
+@layer base {
+  body {
+    @apply bg-sleek-bg text-sleek-text-main antialiased selection:bg-sleek-cyan selection:text-sleek-bg;
+  }
+}
+
+@layer utilities {
+  .scanline {
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 240, 255, 0.1);
+    box-shadow: 0 0 10px #00F0FF;
+    opacity: 0.3;
+    animation: scan 8s linear infinite;
+  }
+
+  @keyframes scan {
+    from { top: 0; }
+    to { top: 100%; }
+  }
+}

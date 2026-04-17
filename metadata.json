@@ -1,0 +1,6 @@
+{
+  "name": "CyberGuard: Malware Educational Lab",
+  "description": "An interactive educational dashboard exploring the mechanics, payloads, and defense strategies for RATs, Ransomware, and Viruses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
