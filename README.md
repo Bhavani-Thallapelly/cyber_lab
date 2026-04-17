@@ -23,3 +23,27 @@ CyberGuard Malware Educational Lab is an interactive cybersecurity project desig
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGJmZ2F1d3d4c2t6d3Y5Z3F2b2R4YzB0c3M0d3RkZ2V4dWJ4ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="600"/>
+</p>
+
+---
+
+## ⚙️ Features
+
+✨ Real-time malware simulation  
+✨ Detection of suspicious activities  
+✨ User-friendly dashboard  
+✨ Educational visualization of cyber attacks  
+✨ Modular and scalable architecture  
+
+---
+
+## 🧠 Technologies Used
+
+- ⚛️ React (Vite + TypeScript)
+- 🎨 HTML, CSS
+- 📦 Node.js
+- 🔐 Cybersecurity Concepts (IDS, Malware Analysis)
+
+---
+
+## 📁 Project Structure
